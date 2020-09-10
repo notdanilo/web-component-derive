@@ -1,8 +1,13 @@
 [package]
-name = "web-component-derive"
-version = "0.1.0"
-authors = ["Danilo Guanabara <danguafer@gmail.com>"]
-edition = "2018"
+name          = "web-component-derive"
+version       = "0.1.0"
+authors       = ["Danilo Guanabara <danguafer@gmail.com>"]
+edition       = "2018"
+license       = "Apache-2.0"
+description   = "#[derive(WebComponent) for web-component-rs."
+readme        = "README.md"
+documentation = "https://docs.rs/web-component-derive"
+repository    = "https://github.com/notdanilo/web-component-derive"
 
 [lib]
 proc-macro = true
