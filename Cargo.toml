@@ -1,0 +1,15 @@
+[package]
+name = "web-component-derive"
+version = "0.1.0"
+authors = ["Danilo Guanabara <danguafer@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn   = { version = "1.0", features = ["derive"] }
+quote = "1.0"
+
